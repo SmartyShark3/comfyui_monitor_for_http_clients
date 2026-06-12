@@ -1,7 +1,7 @@
 # ComfyUI Monitoring Extension Entrypoint
 from .comfy_temp_api import register_routes
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 # Initialize and register the custom API endpoints
 register_routes()
