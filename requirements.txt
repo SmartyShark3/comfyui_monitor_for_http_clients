@@ -1,0 +1,2 @@
+# Required for CPU temperature queries on Linux (optional fallback on Windows)
+psutil>=5.9.0
