@@ -1,5 +1,12 @@
 # ComfyUI Monitoring Extension Entrypoint
+try:
+    from .install import install_requirements
+    install_requirements()
+except Exception as e:
+    print(f"[ComfyUI Monitor] Setup failed during auto-installation: {e}")
+
 from .comfy_temp_api import register_routes
+
 
 __version__ = "1.0.0"
 
