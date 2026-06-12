@@ -68,7 +68,7 @@ def get_cpu_temperatures():
     # 3. Windows / fallback case
     if system == "windows":
         # Return a simulated temperature for testing end-to-end integration on Windows
-        return 37.0
+        return -1.0
         
     return None
 
